@@ -14,7 +14,7 @@ def ozbudak_model( t , init , *param ):
     return [ dxdt , dydt ] 
 
 
-init = [ 0 , 0 ]
+init = [ 5 , 0 ]
 t_span = [ 0 , 30 ]
 
 alpha = 0.1
